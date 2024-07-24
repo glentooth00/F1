@@ -22,6 +22,10 @@
      <!-- Option 1: Include in HTML -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
+        <!-- JS scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -80,8 +84,17 @@
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="usage.html" class="nav-link">Usage</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+        <!-- <li class="nav-item"><a href="usage.html" class="nav-link active" aria-current="page">Usage</a></li> -->
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="methodsDropdown" data-bs-toggle="dropdown" aria-expanded="false">F1 Library Files</a>
+          <ul class="dropdown-menu" aria-labelledby="methodsDropdown">
+            <li><a class="dropdown-item" href="form.html">Form.js</a></li>
+            <li><a class="dropdown-item" href="method2.html">Popup.js</a></li>
+            <li><a class="dropdown-item" href="method3.html">Select.js</a></li>
+            <li><a class="dropdown-item" href="method3.html">Formfield.js</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a href="documentation.html" class="nav-link">Documentation</a></li>
         <li class="nav-item"><a href="https://github.com/xaviertnc/OneFile" class="nav-link">Download</a></li>
         <!-- <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
