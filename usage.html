@@ -101,13 +101,36 @@
       <p class="h4 text-dark lead justify-content-center pb-2">
         The provided form.js script defines a Form class and integrates it into a global namespace F1.lib. This Form class encapsulates all the necessary functionality to handle form interactions, validations, and event handling in a structured manner.
       </p>
-      <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+      <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid green;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
 2
 3</pre></td><td><pre style="margin: 0; line-height: 125%">(<span style="color: #008800; font-weight: bold">function</span>(F1) {
-  <span style="color: #888888">// Form class definition and other code functions here</span>
+  <span style="color: #888888">// Form class definition and other functions here</span>
 })(<span style="color: #007020">window</span>.F1 <span style="color: #333333">=</span> <span style="color: #007020">window</span>.F1 <span style="color: #333333">||</span> {});
 </pre></td></tr></table></div>
+<p class="h4 text-dark lead justify-content-center pt-2">
+  <ul class="pt-2">
+    <li class="text-dark lead">The script is wrapped in an IIFE to create a private scope and avoid polluting the global namespace.</li>
+    <li class="text-dark lead">It accepts F1 as a parameter, ensuring that if F1 already exists, it will be used; otherwise, a new object will be created.</li>
+  </ul>
 
+  <h1 class="text-dark display-6">Form class</h1> 
+    <p class="h4 text-dark lead pb-2">
+      The Form class encapsulates all the logic related to form handling.
+      <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid green;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5
+6</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">class</span> Form {
+  constructor(formElement, config <span style="color: #333333">=</span> {}) {
+    <span style="color: #888888">// Initialization code</span>
+  }
+  <span style="color: #888888">// Other methods</span>
+}
+</pre></td></tr></table></div>
+
+    </p>
+      <br>
   </div>
 
   <div class="b-example-divider"></div>
